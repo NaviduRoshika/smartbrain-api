@@ -61,7 +61,7 @@ app.post('/imageurl',(req,res)=>{
 
 
 app.listen(3000,()=>{
-	console.log("Here we go !!!");
+	console.log(`Here we go !!! ${process.env.PORT}`);
 });
 
 /*
